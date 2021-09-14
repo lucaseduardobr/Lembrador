@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ToDoList" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_black</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="boxStrokeColor">@color/edit_text_box_border</item>
+
+        <!-- mudando a cor do floating action bottom o botao circular -->
+
+        <item name="colorSecondary">@color/red_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+
+
+    </style>
+
+
+    <style name="MyTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/red_light</item>
+        <item name="boxStrokeColor">@color/edit_text_box_border</item>
+
+    </style>
+
+    <style name="MyTextInputEditText" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Dense">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>
